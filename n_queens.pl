@@ -1,3 +1,5 @@
+:- use_rendering(chess).
+
 queens(N, Queens) :-
     length(Queens, N),
 	board(Queens, Board, 0, N, _, _),
